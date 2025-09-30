@@ -32,7 +32,7 @@ echo $l >> $env:TMP\$FileName
 
 #Start Chrome again
 
-$pathToChrome = 'C:\Program Files (x86)\Google\Chrome\Application\chrome.exe'
+$pathToChrome = 'C:\Program Files\Google\Chrome\Application\chrome.exe'
 Start-Process -FilePath $pathToChrome
 
 #Stage 2 Upload them to Dropbox
